@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('insert','instrumentController@insertI');
+Route::post('insert','cdetailscontroller@insertC');
